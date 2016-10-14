@@ -18,7 +18,7 @@ describe('index', () => {
     it('is defined', () => {
       expect(changeCompletely).to.be.a('function')
     })
-
+    
     it('completely alters an array in place when used with Array.prototype.forEach', () => {
       const array = [1, 2, 3]
 
